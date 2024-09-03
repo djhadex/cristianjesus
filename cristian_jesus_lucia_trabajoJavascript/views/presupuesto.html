@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Descripción de tu página">
+  <meta name="keywords" content="palabras clave, separadas, por comas">
+  <meta name="author" content="Tu nombre o el nombre de tu empresa">
+  <title>Título de tu página</title>
+  <link rel="icon" href="/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+
+    <div class="hero_bg_box">
+      <div class="bg_img_box">
+        <img src="/images/hero-bg.png" alt="">
+      </div>
+    </div>
+
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="/index.html">
+            <span>
+              <img src="/images/logoipsum-248.svg" alt="logo">
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  ">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Inicio </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/views/galeria.html"> Galeria</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/views/presupuesto.html">Presupuesto <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/views/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <section class="team_section layout_padding">
+    <div class="section_form">
+      <form id="presupuestoForm">
+        <h1>Formulario de Presupuesto</h1>
+        <!-- Datos de contacto -->
+        <div class="section">
+            <h2>Datos de Contacto</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" maxlength="15" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" maxlength="40" required>
+
+            <label for="telefono">Teléfono de contacto:</label>
+            <input type="tel" id="telefono" maxlength="9" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <!-- Presupuesto -->
+        <div class="section">
+            <h2>Presupuesto</h2>
+            <label for="producto">Producto:</label>
+            <select id="producto" required>
+                <option value="">Seleccione un producto</option>
+                <option value="300">Marketing - 300€</option>
+                <option value="500">SEO - 500€</option>
+                <option value="700">Diseño web - 700€</option>
+            </select>
+
+            <label for="plazo">Plazo (en meses):</label>
+            <input type="number" id="plazo" min="1" max="24" value="1" required>
+            <label><input type="checkbox" id="fechaFlexible"> Fecha flexible (10% de descuento adicional)</label>
+
+            <div class="extras">
+                <h3>Extras:</h3>
+                <label><input type="checkbox" id="extra1" value="50"> Opción extra 1 (+50€)</label>
+                <label><input type="checkbox" id="extra2" value="100"> Opción extra 2 (+100€)</label>
+                <label><input type="checkbox" id="extra3" value="150"> Opción extra 3 (+150€)</label>
+            </div>
+
+            <p class="total">Presupuesto Total: €<span id="total">0</span></p>
+        </div>
+
+        <!-- Condiciones y envío -->
+        <div class="section">
+            <label><input type="checkbox" id="condiciones" required> Acepto las condiciones de privacidad</label>
+        </div>
+
+        <div class="buttons">
+            <button type="submit">Enviar</button>
+            <button type="reset">Resetear</button>
+        </div>
+    </form>
+  </div>
+  </section>
+
+<section class="info_section layout_padding2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 info_col">
+          
+          <div class="info_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <div class="info_detail">
+            <h4>
+              Info
+            </h4>
+            <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab iure amet eos. Id dignissimos nesciunt quae officia maxime esse impedit eaque harum, sint sed perspiciatis consectetur animi, atque similique provident!            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto info_col">
+          <div class="info_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="info_links">
+              <a class="active" href="/index.html">
+                Inicio
+              </a>
+              <a class="" href="/views/galeria.html">
+                Galeria
+              </a>
+              <a class="" href="/views/presupuesto.html">
+                Presupuesto
+              </a>
+              <a class="" href="/views/contacto.html">
+                Contacto
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col ">
+          <h4>
+            Subscribe
+          </h4>
+          <form action="#">
+            <input type="text" placeholder="Enter email">
+            <button type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
