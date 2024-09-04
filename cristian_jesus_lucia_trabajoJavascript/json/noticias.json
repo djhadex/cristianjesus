@@ -1,0 +1,17 @@
+[
+    {
+        "titulo": "lorem",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "url": "https://example.com/noticia1"
+    },
+    {
+        "titulo": "lorem",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "url": "https://example.com/noticia2"
+    },
+    {
+        "titulo": "lorem",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "url": "https://example.com/noticia3"
+    }
+]
